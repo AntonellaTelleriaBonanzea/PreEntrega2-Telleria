@@ -94,8 +94,8 @@ main .destacados{
 }
 .pagos{
   border: 0.5vh solid #a38f85;
-  width: 70vh;
-  height: 30%;
+  width: 30%;
+  height: 200px;
   display: inline-block;
 }
 .pagos img{
