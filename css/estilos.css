@@ -1,0 +1,261 @@
+/*reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*estilos generales*/
+
+
+html{
+font-family: 'Quicksand', sans-serif;
+}
+body{
+  background-color: #ede9e3 ;
+  max-width: 100vh;
+}
+header{
+  background-color: #cdc6c3;
+}
+main{
+  background-color: #ede9e3;
+  margin-top: 90px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+footer{
+  background-color: #d4b2a7;
+  padding: 5vh;
+}
+footer button{
+  background-color: #a38f85;
+  border-style: none;
+  border-radius: 2rem;
+  padding: 3px;
+  font-family: 'Quicksand', serif; ;
+}
+ .footer{
+  margin: 5vh;
+}
+ .medios-pago{
+  display: inline;
+}
+ .medios-pago img{
+  width: 10vh;
+  height: auto;
+}
+ .redes img{
+  width: 10vh;
+  height: auto;
+}
+
+
+/*estilos de home*/
+
+
+main .carrusel{
+  max-width: 100vh;
+  width: 100%;
+  height: 50vh;
+  overflow-x: auto;
+  display: flex;
+  margin: 0 auto;
+}
+main .carrusel img{
+  width: 100%;
+  scroll-snap-align: center;
+}
+main .etiqueta-destacados{
+    text-align: center;
+    background-color: #cdc6c3;
+    padding: 20px;
+}
+main .destacados{
+  margin: 5vh;
+  text-align: center;
+}
+.servicios{
+  text-align: center;
+}
+.envios{
+  border: 0.5vh solid #a38f85;
+  width: 70vh;
+  display: inline-block;
+}
+.envios img {
+  width: 10vh;
+  height: 10vh;
+}
+.pagos{
+  border: 0.5vh solid #a38f85;
+  width: 70vh;
+  display: inline-block;
+}
+.pagos img{
+  width: 10vh;
+  height: 10vh;
+}
+.contacto{
+  border: 0.5vh solid #a38f85;
+  width: 70vh;
+  display: inline-block;
+}
+.contacto img{
+  width: 10vh;
+  height: 10vh;
+}
+main .tarjetas-destacados{
+  margin: 10vh;
+  padding-bottom: 3vh;
+}
+
+
+/*estilos de productos*/
+
+
+.prod{
+  display: flex;
+  padding-top: 50px;
+}
+.cards-productos{
+  display: flex; 
+  text-align: center;
+}
+.card-productos{
+  flex: 50%;
+  width: 70vh;
+  margin: 30px;
+  border: 5px solid #a38f85;
+  background-color: #a38f85;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.card-productos img{
+  width: 68vh;
+  border-color: black;
+}
+.card-productos .footer-productos{
+  background-color: #a38f85;
+  padding: 10px;
+}
+.footer-productos button{
+  padding: 2vh;
+  background-color: #d4b2a7;
+  border-style: none;
+  border-radius: 2rem;
+}
+
+
+/*estilos de quienes somos*/
+
+
+.quienessomos{
+  text-align: center;
+  padding: 1vh 5vh 5vh 5vh
+} 
+.quienessomos img{
+  width: 70vh;
+  height: 70vh;
+  margin-top: 5vh;
+}
+.quienessomos p{
+  margin-top: 7vh;
+}
+
+
+/*estilos de preguntas frecuentes*/
+
+.preguntas{
+  padding-top: 50px;
+}
+.pregunta{
+  font-style: italic;
+  text-decoration: underline;
+  background-color: #a38f85;
+  margin: 10px 20px;
+  display: inline-block;
+}
+.respuesta{
+  text-align: justify;
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+/*estilos de contacto*/
+
+.saludo-contacto{
+  padding-top: 50px;
+  text-align: center;
+  width: 70vh;
+  margin: 5vh 5vh;
+}
+.datos-contacto{
+  display: flex;
+  flex-direction: column;
+}
+.datos-contacto img{
+  width: 5vh;
+  height: auto;
+}
+
+.telefono{
+  display: block;
+  text-align: center;
+}
+
+.direccion{
+  text-align: center;
+}
+
+form{
+  font-family: sans-serif;
+  display: inline-block;
+  border-style: none;
+  padding-left: 15vh;
+  
+}
+fieldset{
+  border-style: none;
+  margin: 10px;
+}
+
+.contacto-formulario label{
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.contacto-formulario input{
+  background-color: #d4b2a7;
+  border-style: none;
+  width: 50vh;
+  border-radius: 6vh;
+  
+}
+
+.contacto-formulario textarea{
+  text-align: left;
+  padding: 0.5rem;
+  background-color: #d4b2a7;
+  border-style: none;
+  width: 50vh;
+  border-radius: 6vh;
+}
+
+.boton-formulario{
+  border-style: none;
+}
+.boton-formulario input{
+  border-radius: 6vh;
+  width: 20vh;
+  padding: 1vh;
+}
+
+
+
+
