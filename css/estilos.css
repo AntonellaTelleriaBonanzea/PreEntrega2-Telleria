@@ -81,16 +81,16 @@ main .destacados{
 .servicios{
   text-align: center;
 }
-.envios{
-  border: 0.5vh solid #a38f85;
+.envios .pagos .contacto{
   width: 100vh;
   height: 100vh;
   display: inline-block;
 }
-.envios img {
+.servicios img {
   width: 10vh;
   height: 10vh;
 }
+/*
 .pagos{
   border: 0.5vh solid #a38f85;
   width: 30%;
@@ -111,6 +111,7 @@ main .destacados{
   width: 10vh;
   height: 10vh;
 }
+*/
 main .tarjetas-destacados{
   margin: 10vh;
   padding-bottom: 3vh;
