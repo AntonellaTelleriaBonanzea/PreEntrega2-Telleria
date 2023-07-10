@@ -85,7 +85,7 @@ main .destacados{
 }
 .envios{
   border: 5px solid #a38f85;
-  width: 90%;
+  width: 100%;
   display: inline-block;
 }
 .envios img {
@@ -94,7 +94,7 @@ main .destacados{
 }
 .pagos{
   border: 5px solid #a38f85;
-  width: 90%;
+  width: 100%;
   display: inline-block;
 }
 .pagos img{
@@ -103,19 +103,13 @@ main .destacados{
 }
 .contacto{
   border: 5px solid #a38f85;
-  width: 90%;
+  width: 100%;
   display: inline-block;
 }
 .contacto img{
   width: 10vh;
   height: 10vh;
 }
-/*
-main .tarjetas-destacados{
-  margin: 10vh;
-  padding-bottom: 3vh;
-}
-*/ 
 
 /*estilos de productos*/
 
@@ -159,16 +153,17 @@ main .tarjetas-destacados{
 
 
 .quienessomos{
+  max-width: 100%;
   text-align: center;
   padding: 1vh 5vh 5vh 5vh
 } 
 .quienessomos img{
-  width: 70vh;
-  height: 70vh;
+  width: 100%;
+  height: 100%;
   margin-top: 5vh;
 }
 .quienessomos p{
-  margin-top: 7vh;
+  margin-top: 5vh;
 }
 
 
