@@ -80,13 +80,11 @@ main .destacados{
 }
 .servicios{
   text-align: center;
-  max-width: 70vh;
-  max-height: 100vh;
 }
 .envios{
   border: 0.5vh solid #a38f85;
-  width: 70vh;
-  height: 30%;
+  width: 100vh;
+  height: 100vh;
   display: inline-block;
 }
 .envios img {
