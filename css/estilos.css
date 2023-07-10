@@ -80,9 +80,12 @@ main .destacados{
 }
 .servicios{
   text-align: center;
+  width: 300;
+  
 }
 .envios{
-  width: 70vh;
+  border: 5px solid #a38f85;
+  width: 90%;
   display: inline-block;
 }
 .envios img {
@@ -90,7 +93,8 @@ main .destacados{
   height: 10vh;
 }
 .pagos{
-  width: 70vh;
+  border: 5px solid #a38f85;
+  width: 90%;
   display: inline-block;
 }
 .pagos img{
@@ -98,7 +102,8 @@ main .destacados{
   height: 10vh;
 }
 .contacto{
-  width: 70vh;
+  border: 5px solid #a38f85;
+  width: 90%;
   display: inline-block;
 }
 .contacto img{
