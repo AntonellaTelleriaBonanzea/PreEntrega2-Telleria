@@ -217,12 +217,10 @@ form{
   font-family: sans-serif;
   display: inline-block;
   border-style: none;
-  padding-left: 2vh;
-  
+  padding-left: 2px;
 }
 fieldset{
   border-style: none;
-  margin: 10px;
 }
 
 .contacto-formulario label{
@@ -233,7 +231,7 @@ fieldset{
 .contacto-formulario input{
   background-color: #d4b2a7;
   border-style: none;
-  width: 50vh;
+  width: 40vh;
   border-radius: 6vh;
   
 }
@@ -243,7 +241,7 @@ fieldset{
   padding: 0.5rem;
   background-color: #d4b2a7;
   border-style: none;
-  width: 50vh;
+  width: 40vh;
   border-radius: 6vh;
 }
 
@@ -253,7 +251,8 @@ fieldset{
 .boton-formulario input{
   border-radius: 6vh;
   width: 20vh;
-  padding: 1vh;
+  margin: 20px;
+  padding: 5px;
 }
 
 
