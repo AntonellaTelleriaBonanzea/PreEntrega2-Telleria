@@ -153,7 +153,7 @@ main .destacados{
 
 
 .quienessomos{
-  max-width: 100%;
+  max-width: 100vh;
   text-align: center;
   padding: 1vh 5vh 5vh 5vh
 } 
