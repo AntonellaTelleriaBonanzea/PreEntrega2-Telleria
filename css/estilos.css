@@ -219,7 +219,7 @@ section .grid-container{
 }
 
 /*mq desktop*/
-@media (min-width:1020px){
+@media (min-width:1024px){
   main .img-dos{
     display: block;
   }
@@ -324,6 +324,34 @@ fieldset{
   padding: 5px;
 }
 
+.grids-container{
+  text-align: justify;
+}
+.grids-container{
+  display: grid;
+  gap: 2px;
+  grid-template:
+  "grid1" 50%
+  "formulario-cont" 50%;
+}
 
+/*mq tablet*/
+@media (min-width:600px){
+  .grids-container{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "grid1 formulario-cont";
+  }
+}
+ /*mq desktop*/
+ @media (min-width:1024px){
+  .grids-container{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "grid1 formulario-cont";
+  }
+}
 
 

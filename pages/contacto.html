@@ -60,58 +60,64 @@
     
     <main>
         
-        <div class="saludo-contacto">
-            <!--saludo indicando los medios por los que se pueden contactar con la empresa-->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, facere modi debitis illum exercitationem nisi odio officia ut atque corrupti esse, minima cum qui et ipsa dicta delectus commodi dolores?</p>
-         </div>
+        <section class="grids-container">
+            <div class="grid1">
+                <div class="saludo-contacto">
+                 <!--saludo indicando los medios por los que se pueden contactar con la empresa-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, facere modi debitis illum exercitationem nisi odio officia ut atque corrupti esse, minima cum qui et ipsa dicta delectus commodi dolores?</p>
+                </div>
 
-         <div class="datos-contacto">
-            <div class="telefono">
-                <img src="../imag/wpp-logo.png" alt="logo whatsapp">
-                <a href="https://api.whatsapp.com/send?phone=%2B543541522989&data=ARBn1uhON_RuUmEuC_TvBJF1Gwjbjlv_w7Ste5HVulLkFIH7ZGTE6JPfM6WRJ_m1bZ11gwH2u2odyF5yIeq0CkfRc7GgiPr6o1aW9cjptMQ_8bHJrU8C2Qj7CpXXLNUnGPv8InL83wXKKrz_-K3iRWUv-g&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR1APY4_zoAXSTWOU1IvdNvoWF8I5_7IzAJS694_znntWfMHKiDHDvDo7Cc" target="_blank">WhatsApp</a>
+                <div class="datos-contacto">
+                    <div class="telefono">
+                         <img src="../imag/wpp-logo.png" alt="logo whatsapp">
+                         <a href="https://api.whatsapp.com/send?phone=%2B543541522989&data=ARBn1uhON_RuUmEuC_TvBJF1Gwjbjlv_w7Ste5HVulLkFIH7ZGTE6JPfM6WRJ_m1bZ11gwH2u2odyF5yIeq0CkfRc7GgiPr6o1aW9cjptMQ_8bHJrU8C2Qj7CpXXLNUnGPv8InL83wXKKrz_-K3iRWUv-g&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR1APY4_zoAXSTWOU1IvdNvoWF8I5_7IzAJS694_znntWfMHKiDHDvDo7Cc" target="_blank">WhatsApp</a>
 
-                <img src="../imag/facebook-icon-.png" alt="logo facebook">
-                <a href="https://www.facebook.com/profile.php?id=100069770867938" target="_blank">Facebook</a>
+                         <img src="../imag/facebook-icon-.png" alt="logo facebook">
+                        <a href="https://www.facebook.com/profile.php?id=100069770867938" target="_blank">Facebook</a>
 
-                <img src="../imag/Instagram-logo.png" alt="logo instagram">
-                <a href="https://www.instagram.com/galeana.deco" target="_blank">Instagram</a>
+                        <img src="../imag/Instagram-logo.png" alt="logo instagram">
+                        <a href="https://www.instagram.com/galeana.deco" target="_blank">Instagram</a>
+                    </div>
+
+                    <div class="direccion">
+                    <!--iframe del mapa con localizacion-->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108962.42271824229!2d-64.58213888471356!3d-31.41204008175614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1686274825156!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
             </div>
+                
+            
 
-            <div class="direccion">
-            <!--iframe del mapa con localizacion-->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108962.42271824229!2d-64.58213888471356!3d-31.41204008175614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1686274825156!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <form class="formulario-cont">
+                <fieldset class="contacto-formulario">
+                    <div>
+                        <label for="nombre">NOMBRE </label> <br>
+                        <input type="text" placeholder="Nombre" >
+                    </div>
+                    <div>
+                        <label for="email">E-MAIL</label><br>
+                        <input type="email" placeholder=nombre@nombre.com>
+                    </div>
+                    <div>
+                        <label for="tel">TELEFONO (Opcional)</label><br>
+                        <input type="number">
+                    </div>
+                    <div>
+                        <label for="text">MENSAJE (Opcional)</label><br>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button class="boton-formulario">
+                            <input type="submit">
+                        </button>
+                        
+                    </div>
+                </fieldset>
+            </form>
 
-        </div>
+        </section>
         
-
-        <form class="formulario-cont">
-            <fieldset class="contacto-formulario">
-                <div>
-                    <label for="nombre">NOMBRE </label> <br>
-                    <input type="text" placeholder="Nombre" >
-                </div>
-                <div>
-                    <label for="email">E-MAIL</label><br>
-                    <input type="email" placeholder=nombre@nombre.com>
-                </div>
-                <div>
-                    <label for="tel">TELEFONO (Opcional)</label><br>
-                    <input type="number">
-                </div>
-                <div>
-                    <label for="text">MENSAJE (Opcional)</label><br>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <button class="boton-formulario">
-                        <input type="submit">
-                    </button>
-                    
-                </div>
-            </fieldset>
-        </form>
-
         
     </main>
 
