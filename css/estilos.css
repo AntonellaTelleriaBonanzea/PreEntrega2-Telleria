@@ -14,7 +14,6 @@ font-family: 'Quicksand', sans-serif;
 }
 body{
   background-color: #ede9e3 ;
-  max-width: 100vh;
 }
 header{
   background-color: #cdc6c3;
@@ -153,19 +152,89 @@ main .destacados{
 /*estilos de quienes somos*/
 
 
-.quienessomos{
-  max-width: 100vh;
+section .grid-container{
   text-align: center;
-  padding: 1vh 5vh 5vh 5vh
-} 
-.quienessomos img{
+}
+
+.grid-container{
+  display: grid;
+  gap: 10px;
+  grid-template: 
+  "img-dai" 200px
+  "img-dos" 200px
+  "quienes-somos" 400px;
+}
+
+.img-dai{
+  grid-area: img-dai;
+  align-self: center;
+}
+.img-dos{
+  grid-area: img-dos;
+  align-self: center;
+}
+.quienes-somos{
+  grid-area: quienes-somos;
+  gap: 10px;
+}
+
+.img-dai img{
   width: 90%;
   height: 90%;
-  margin-top: 5vh;
+  margin: 3vh;
+  padding-top: 50px;
+  align-self: center;
 }
-.quienessomos p{
-  margin-top: 5vh;
+.img-dos img{
+  width: 83%;
+  height: 83%;
+  margin: 3vh;
+  padding-top: 50px;
+  align-self: center;
 }
+
+.img-dos{
+  display: none;
+}
+.quienes-somos p{
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  margin-left: 3vh;
+}
+
+/*mq tablet*/
+@media (min-width:600px){
+  main .img-dos{
+    display: block;
+  }
+  .grid-container{
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 2fr 1fr;
+      grid-template-areas: 
+      "img-dai img-dos"
+      "quienes-somos quienes-somos";
+  }
+
+}
+
+/*mq desktop*/
+@media (min-width:1020px){
+  main .img-dos{
+    display: block;
+  }
+  main .quienes-somos{
+    padding-top: 200px;
+  }
+  .grid-container{
+      grid-template-columns: 40% 50%;
+      grid-template-rows: 50% 50%;
+      grid-template-areas: 
+      "img-dai quienes-somos"
+      "img-dos quienes-somos";
+  }
+}
+
 
 
 /*estilos de preguntas frecuentes*/
